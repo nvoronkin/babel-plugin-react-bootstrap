@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-react-bootstrap",
+  "name": "babel-plugin-react-bootstrap-fixed",
   "version": "0.0.1",
   "description": "babel-plugin-react-bootstrap",
   "main": "dist/index.js",
