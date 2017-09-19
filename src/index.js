@@ -3,7 +3,7 @@ import Module from 'module';
 import path from 'path';
 
 const _module = new Module();
-const MODULE_NAME = 'react-bootstrap';
+const MODULE_NAME = 'react-bootstrap-fixed';
 
 const modulePath = path.dirname(
   Module._resolveFilename(
