@@ -61,7 +61,7 @@ module.exports = ({ types: t }) => ({
           throw new Error(`react-bootstrap does not contain module "${importedName}"`);
         }
 
-        importedPath = `${MODULE_NAME}/lib/${pkgMap[importedName]}`;
+        importedPath = `${MODULE_NAME}/${pkgMap[importedName]}`;
       }
 
       path.insertAfter(t.importDeclaration([spec], t.stringLiteral(importedPath)));
